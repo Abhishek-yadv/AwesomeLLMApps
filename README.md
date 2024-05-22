@@ -42,7 +42,7 @@ Intelligently scrape websites using OpenAI API and the scrapegraphai library. Sp
 1. Clone the repository 
 
 ```bash 
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git 
+[git clone [[(https://github.com/Abhishek-yadv/AwesomeLLMApps)]]
 ```
 
 2. Navigate to the desired project directory
