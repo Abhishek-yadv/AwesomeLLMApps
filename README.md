@@ -8,9 +8,8 @@ This repository showcases projects built using OpenAI, Anthropic, Gemini, and op
 - 🔥 Explore apps that combine LLMs from OpenAI, Anthropic, Gemini, and open-source alternatives with RAG and AI Agents.
 - 🎓 Learn from well-documented projects and contribute to the growing open-source ecosystem of LLM-powered applications.
   
-What are LLMs and RAG?
-Large Language Models (LLMs) are advanced natural language processing models trained on massive amounts of text data, capable of understanding and generating human-like text.
-Retrieval-augmented generation (RAG) is a technique that combines the language generation capabilities of LLMs with retrieval from external knowledge sources, enabling more accurate and informative responses.
+## What are LLMs and RAG? 🤔
+Large Language Models (LLMs) are advanced natural language processing models trained on massive amounts of text data, capable of understanding and generating human-like text. Retrieval-Augmented Generation (RAG) is a technique that combines the language generation capabilities of LLMs with retrieval from external knowledge sources, enabling more accurate and informative responses. 🧠
 
 Applications
 This section will showcase various applications and tools that leverage LLMs and RAG capabilities, categorized by the model provider or framework used.
