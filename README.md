@@ -42,13 +42,13 @@ Intelligently scrape websites using OpenAI API and the scrapegraphai library. Sp
 1. Clone the repository 
 
 ```bash 
-[git clone [[(https://github.com/Abhishek-yadv/AwesomeLLMApps)]]
+[git clone (https://github.com/Abhishek-yadv/AwesomeLLMApps)
 ```
 
 2. Navigate to the desired project directory
 
 ```bash 
-cd awesome-llm-apps/chat_with_gmail 
+(https://github.com/Abhishek-yadv/AwesomeLLMApps)
 ```
 
 3. Install the required dependencies
