@@ -1,5 +1,3 @@
-Sure! Here's a charming, easy-to-read version with emojis to make it more engaging:
-
 ## 🚀📈 AI Investment Agent
 
 Welcome to the **AI Investment Agent**! This delightful Streamlit app harnesses the power of AI to compare the performance of two stocks, generating detailed reports to guide your investment decisions. By leveraging GPT-4 alongside Yahoo Finance data, you gain valuable insights to help you make informed choices.
