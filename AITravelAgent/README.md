@@ -1,10 +1,10 @@
 # 🌍✈️ AITravelAgent 🏨🗺️
 
-Typper's POC: Plan and discover perfect trips with Phidata and OpenAI using smart prompts! 🤖💡
+Abhishek POC: Plan and discover perfect trips with Phidata and OpenAI using smart prompts! 🤖💡
 
 ## 📝 Description
 
-This project is a Proof of Concept (POC) by Typper, utilizing Phidata and OpenAI to plan and search for trips based on user prompts. The AI assistant helps users organize their perfect trips by finding the best flights, hotels, and popular activities in their desired destination. 🧳🌴
+This project is a Proof of Concept (POC) by Abhishek, utilizing Phidata and OpenAI to plan and search for trips based on user prompts. The AI assistant helps users organize their perfect trips by finding the best flights, hotels, and popular activities in their desired destination. 🧳🌴
 
 ## ✨ Features
 
