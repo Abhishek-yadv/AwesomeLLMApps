@@ -1,41 +1,45 @@
-## 📈 AI Investment Agent
-This Streamlit app is an AI-powered investment agent that compares the performance of two stocks and generates detailed reports. By using GPT-4o with Yahoo Finance data, this app provides valuable insights to help you make informed investment decisions.
+## 🚀📈 AI Investment Agent
 
-### Features
-- Compare the performance of two stocks
-- Retrieve comprehensive company information
-- Get the latest company news and analyst recommendations
-- Get the latest company news and analyst recommendations
+Welcome to the **AI Investment Agent**! This delightful Streamlit app harnesses the power of AI to compare the performance of two stocks, generating detailed reports to guide your investment decisions. By leveraging GPT-4 alongside Yahoo Finance data, you gain valuable insights to help you make informed choices.
 
-### How to get Started?
+### ✨ Features
+- 📊 Compare the performance of two stocks
+- 📜 Retrieve comprehensive company information
+- 📰 Get the latest company news and analyst recommendations
 
-1. Clone the GitHub repository
+### 🌟 How to Get Started?
 
-```bash
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-```
-2. Install the required dependencies:
+1. **Clone the GitHub repository**:
+    ```bash
+    git clone https://github.com/Abhishek-yad/AwesomeLLMApps.git
+    ```
+2. **Install the required dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. **Get your OpenAI API Key**:
+    - Sign up for an [OpenAI account](https://platform.openai.com/) (or the LLM provider of your choice) and obtain your API key.
 
-```bash
-pip install -r requirements.txt
-```
-3. Get your OpenAI API Key
+4. **Run the Streamlit App**:
+    ```bash
+    streamlit run investment_agent.py
+    ```
 
-- Sign up for an [OpenAI account](https://platform.openai.com/) (or the LLM provider of your choice) and obtain your API key.
+### 🔍 How it Works?
 
-4. Run the Streamlit App
-```bash
-streamlit run investment_agent.py
-```
+1. **Enter your OpenAI API key**:
+    - When you run the app, you’ll be prompted to enter your OpenAI API key to authenticate and access the OpenAI language model.
 
-### How it Works?
+2. **Input stock symbols**:
+    - Provide the stock symbols of the two companies you want to compare in the text input fields.
 
-- Upon running the app, you will be prompted to enter your OpenAI API key. This key is used to authenticate and access the OpenAI language model.
-- Once you provide a valid API key, an instance of the Assistant class is created. This assistant utilizes the GPT-4 language model from OpenAI and the YFinanceTools for accessing stock data.
-- Enter the stock symbols of the two companies you want to compare in the provided text input fields.
-- The assistant will perform the following steps:
-    - Retrieve real-time stock prices and historical data using YFinanceTools
-    - Fetch the latest company news and analyst recommendations
-    - Gather comprehensive company information
-    - Generate a detailed comparison report using the GPT-4 language model
-- The generated report will be displayed in the app, providing you with valuable insights and analysis to guide your investment decisions.
+3. **AI-powered analysis**:
+    - The assistant retrieves real-time stock prices and historical data using YFinanceTools.
+    - Fetches the latest company news and analyst recommendations.
+    - Gathers comprehensive company information.
+    - Generates a detailed comparison report using the GPT-4 language model.
+
+4. **View your report**:
+    - The generated report is displayed in the app, offering valuable insights and analysis to guide your investment decisions.
+
+Enjoy making smarter investments with the power of AI! 🌟
