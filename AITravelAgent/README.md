@@ -17,7 +17,7 @@ This project is a Proof of Concept (POC) by Abhishek, utilizing Phidata and Open
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/AwesomeLLMApps/AITravelAgent.git
+    git clone [https://github.com/Abhishek-yadv/AwesomeLLMApps/tree/main/AITravelAgent]
     cd travel-ai
     ```
 
