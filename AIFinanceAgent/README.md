@@ -1,6 +1,6 @@
-## 🚀📈 AI Investment Agent
+## 🚀📈 AI Finance Agent
 
-Welcome to the **AI Investment Agent**! This delightful Streamlit app harnesses the power of AI to compare the performance of two stocks, generating detailed reports to guide your investment decisions. By leveraging GPT-4 alongside Yahoo Finance data, you gain valuable insights to help you make informed choices.
+Welcome to the **AIFinanceAgent**! This delightful Streamlit app harnesses the power of AI to compare the performance of two stocks, generating detailed reports to guide your investment decisions. By leveraging GPT-4 alongside Yahoo Finance data, you gain valuable insights to help you make informed choices.
 
 ### ✨ Features
 - 📊 Compare the performance of two stocks
@@ -11,7 +11,7 @@ Welcome to the **AI Investment Agent**! This delightful Streamlit app harnesses 
 
 1. **Clone the GitHub repository**:
     ```bash
-    git clone https://github.com/Abhishek-yad/AwesomeLLMApps.git
+    git clone https://github.com/Abhishek-yadv/AwesomeLLMApps.git
     ```
 2. **Install the required dependencies**:
     ```bash
