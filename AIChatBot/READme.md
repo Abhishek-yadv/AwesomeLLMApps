@@ -15,7 +15,7 @@ Welcome to the **AI Chat Assistant**! This intuitive Streamlit app leverages Gro
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd AwesomeLLMApps/main
+    cd AwesomeLLMApps/AIChatBot
     ```
 3. **Install the required dependencies**:
     ```bash
