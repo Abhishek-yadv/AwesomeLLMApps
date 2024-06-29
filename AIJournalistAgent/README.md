@@ -1,40 +1,50 @@
-## 🗞️ AI Journalist Agent 
-This Streamlit app is an AI-powered journalist agent that generates high-quality articles using OpenAI GPT-4o. It automates the process of researching, writing, and editing articles, allowing you to create compelling content on any topic with ease.
+## 🗞️ AIJournalistAgent
 
-### Features
-- Searches the web for relevant information on a given topic
-- Writes well-structured, informative, and engaging articles
-- Edits and refines the generated content to meet the high standards of the New York Times
+AIJournalistAgent is a Streamlit app that uses OpenAI GPT-4 to help create high-quality articles on any topic. It streamlines the process of researching, writing, and editing, making content creation faster and easier.
 
-### How to get Started?
+### ✨ Features
 
-1. Clone the GitHub repository
+- 🔍 Searches the web for relevant information on your chosen topic
+- ✍️ Writes well-structured and engaging articles
+- 🖋️ Edits and refines content to meet high journalistic standards
 
-```bash
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-```
-2. Install the required dependencies:
+### 🚀 Getting Started
 
-```bash
-pip install -r requirements.txt
-```
-3. Get your OpenAI API Key
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Abhishek-yadv/AwesomeLLMApps/tree/main/AIJournalistAgent
+   ```
 
-- Sign up for an [OpenAI account](https://platform.openai.com/) (or the LLM provider of your choice) and obtain your API key.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-4. Get your SerpAPI Key
+3. Get your OpenAI API Key:
+   - 🔑 Sign up for an [OpenAI account](https://platform.openai.com/) and obtain your API key
 
-- Sign up for an [SerpAPI account](https://serpapi.com/) and obtain your API key.
+4. Get your SerpAPI Key:
+   - 🔑 Sign up for a [SerpAPI account](https://serpapi.com/) and get your API key
 
-5. Run the Streamlit App
-```bash
-streamlit run journalist_agent.py
-```
+5. Run the app:
+   ```bash
+   streamlit run main.py
+   ```
 
-### How it Works?
+### 🧠 How It Works
 
-The AI Journalist Agent utilizes three main components:
-- Searcher: Responsible for generating search terms based on the given topic and searching the web for relevant URLs using the SerpAPI.
-- Writer: Retrieves the text from the provided URLs using the NewspaperToolkit and writes a high-quality article based on the extracted information.
-- Editor: Coordinates the workflow between the Searcher and Writer, and performs final editing and refinement of the generated article.
+AIJournalistAgent uses three main components:
 
+1. 🕵️ Searcher:
+   - Generates search terms based on the given topic
+   - Searches the web for relevant URLs using SerpAPI
+
+2. 📝 Writer:
+   - Retrieves text from the provided URLs using NewspaperToolkit
+   - Writes an article based on the extracted information
+
+3. ✨ Editor:
+   - Coordinates the workflow between the Searcher and Writer
+   - Performs final editing and refinement of the article
+
+Try AIJournalistAgent today and experience a new way to create content quickly and efficiently! 🚀📰

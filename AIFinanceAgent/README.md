@@ -11,7 +11,7 @@ Welcome to the **AIFinanceAgent**! This delightful Streamlit app harnesses the p
 
 1. **Clone the GitHub repository**:
     ```bash
-    git clone https://github.com/Abhishek-yadv/AwesomeLLMApps.git
+    git clone [https://github.com/Abhishek-yadv/AwesomeLLMApps/tree/main/AIFinanceAgent]
     ```
 2. **Install the required dependencies**:
     ```bash
@@ -22,7 +22,7 @@ Welcome to the **AIFinanceAgent**! This delightful Streamlit app harnesses the p
 
 4. **Run the Streamlit App**:
     ```bash
-    streamlit run investment_agent.py
+    streamlit run main.py
     ```
 
 ### 🔍 How it Works?
