@@ -28,3 +28,5 @@ if openai_api_key:
         query = f"Compare {stock1} to {stock2}. Use every tool you have."
         response = assistant.run(query, stream=False)
         st.write(response)
+
+# Thanks for visiting
