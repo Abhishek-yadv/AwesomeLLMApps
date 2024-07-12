@@ -107,6 +107,6 @@ This project is protected by the MIT License spell. Consult the `LICENSE` scroll
 
 ---
 
-Crafted with ❤️ and a sprinkle of ✨ by [Your Name]
+Crafted with ❤️ and a sprinkle of ✨ by Abhishek Yadav
 
 May your books be ever insightful! 📚💫
