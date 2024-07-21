@@ -36,9 +36,9 @@ An AI investment agent that compares the performance of two stocks and generates
 4. **Follow the project-specific instructions** in each project's README.md file to set up and run the app.
 
 ### 🤝 Contributing to Open Source
-We welcome all contributions! If you have any ideas, improvements, or new projects to add, please create a GitHub Issue or submit a pull request. Make sure to follow the existing project structure and include a detailed README.md for any new additions.
+We welcome all contributions! If you have any ideas, improvements, or new projects to add, please create a GitHub Issue or submit a pull request. Follow the existing project structure and include a detailed README.md for any new additions.
 
-Thank you for your support! 🙏
+Thank you for being so supportive! 🙏
 
 ### 🌟 Don’t miss out on future updates!
 Star the repo now and be the first to know about new and exciting LLM applications with RAG..
