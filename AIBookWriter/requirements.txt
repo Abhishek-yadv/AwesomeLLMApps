@@ -63,7 +63,6 @@ tornado==6.4
 typing_extensions==4.11.0
 tzdata==2024.1
 urllib3==2.2.1
-weasyprint==62.3
 webencodings==0.5.1
 zopfli==0.2.3
 python-dotenv==1.0.1
