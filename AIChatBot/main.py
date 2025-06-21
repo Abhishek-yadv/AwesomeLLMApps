@@ -180,7 +180,7 @@ if send_button and user_input:
                 st.error(f"An error occurred: {str(e)}")
 
         # Clear user input
-        st.session_state.user_input = ""
+        st.experimental_rerun()
 
 # Add a button to clear chat history
 if st.sidebar.button("Clear Chat History"):
