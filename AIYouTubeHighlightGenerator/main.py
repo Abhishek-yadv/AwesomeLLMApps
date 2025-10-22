@@ -11,7 +11,7 @@ from PIL import Image
 import io
 import textwrap
 import base64
-import fitz  # PyMuPDF
+import fitz
 
 # Pydantic model for structured output
 class Excerpt(BaseModel):
