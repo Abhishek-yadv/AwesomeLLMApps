@@ -98,4 +98,4 @@ watchdog==4.0.1
 webencodings==0.5.1
 xhtml2pdf==0.2.16
 yarl==1.9.4
-youtube-transcript-api==0.6.2
+youtube-transcript-api==1.2.3

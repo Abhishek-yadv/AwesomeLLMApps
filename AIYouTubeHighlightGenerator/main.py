@@ -30,8 +30,9 @@ def extract_video_id(url):
 # Function to get transcript
 def get_transcript(video_id):
     try:
-        transcript = YouTubeTranscriptApi.get_transcript(video_id)
-        return " ".join([entry['text'] for entry in transcript])
+        api = YouTubeTranscriptApi()
+        transcript = api.fetch(video_id)
+        return " ".join([entry.text for entry in transcript])
     except Exception as e:
         st.error(f"Error fetching transcript: {str(e)}")
         return None
