@@ -39,7 +39,7 @@ def get_transcript(video_id):
 
 # Function to generate excerpts using Groq
 def generate_excerpts(transcript):
-    llm = ChatGroq(max_tokens=4096, model="llama-3.1-8b-instant", api_key=groq_api_key)
+    llm = ChatGroq(max_tokens=4096, model="openai/gpt-oss-20b", api_key=groq_api_key)
     parser = PydanticOutputParser(pydantic_object=ExcerptList)
     prompt_template = PromptTemplate(
         template="Extract 3-4 excerpts from the following transcript. For each excerpt, provide a title and the exact content that is at least a page long (300 words).\n\nTranscript: {transcript}\n\n{format_instructions}",
