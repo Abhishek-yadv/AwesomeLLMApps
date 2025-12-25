@@ -1,8 +1,8 @@
 import streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi
 from langchain_groq import ChatGroq
-from langchain.prompts import PromptTemplate
-from langchain.output_parsers import PydanticOutputParser
+from langchain_core.prompts import PromptTemplate
+from langchain_core.output_parsers import PydanticOutputParser
 from pydantic import BaseModel, Field
 from typing import List
 import re
@@ -23,8 +23,8 @@ class ExcerptList(BaseModel):
 
 # Function to extract video ID from YouTube URL
 def extract_video_id(url):
-    video_id_match = re.search(r"(?<=v=)[^&#]+", url)
-    video_id_match = video_id_match or re.search(r"(?<=be/)[^&#]+", url)
+    video_id_match = re.search(r"(?<=v=)[^&#?]+", url)
+    video_id_match = video_id_match or re.search(r"(?<=be/)[^&#?]+", url)
     return video_id_match.group(0) if video_id_match else None
 
 # Function to get transcript
@@ -47,8 +47,8 @@ def generate_excerpts(transcript):
         partial_variables={"format_instructions": parser.get_format_instructions()}
     )
     _input = prompt_template.format_prompt(transcript=transcript)
-    output = llm.predict(_input.to_string())
-    return parser.parse(output)
+    output = llm.invoke(_input.to_string())
+    return parser.parse(output.content)
 
 def pdf_to_image(pdf_content):
     # Load the PDF document from bytes
@@ -167,7 +167,7 @@ def main():
                                 )
 
                                 # Display a preview of the PDF (first page)
-                                st.image(image, caption=f"Preview of Excerpt {i+1}", use_column_width=True)
+                                st.image(image, caption=f"Preview of Excerpt {i+1}", use_container_width=True)
         else:
             st.error("Invalid YouTube URL")
 
