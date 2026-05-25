@@ -71,4 +71,4 @@ We welcome all contributions! If you have any ideas, improvements, or new projec
 Thank you for being so supportive! 🙏
 
 ### 🌟 Don’t miss out on future updates!
-Star the repo now and be the first to know about new and exciting LLM applications with RAG..
+Star the repo now and be the first to know about new and exciting LLM applications with RAG.
