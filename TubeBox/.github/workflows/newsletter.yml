@@ -1,0 +1,51 @@
+name: Weekly YouTube Newsletter
+
+# Run every Wednesday at 7:00 AM PST (3:00 PM UTC)
+# PST is UTC-8, so 7 AM PST = 15:00 UTC
+on:
+  schedule:
+    - cron: '0 15 * * 3'  # 3 = Wednesday, 15:00 UTC = 7 AM PST
+
+  # Also allow manual trigger from GitHub website
+  workflow_dispatch:
+
+jobs:
+  send-newsletter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install google-api-python-client python-dotenv youtube-transcript-api anthropic markdown ebooklib requests
+
+      - name: Download processed videos tracker
+        uses: actions/download-artifact@v4
+        with:
+          name: processed-videos
+          path: .
+        continue-on-error: true  # First run won't have this file
+
+      - name: Run newsletter generator
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          SUPADATA_API_KEY: ${{ secrets.SUPADATA_API_KEY }}
+        run: python main.py
+
+      - name: Upload processed videos tracker
+        uses: actions/upload-artifact@v4
+        with:
+          name: processed-videos
+          path: processed_videos.json
+          retention-days: 90
+        if: always()  # Save even if newsletter fails

@@ -1,0 +1,19 @@
+# Secret files - NEVER upload these!
+.env
+
+# Personal files
+FORZARA.md
+SHARE_ON_X.md
+
+# Generated files
+processed_videos.json
+*.epub
+logs/
+newsletters/
+
+# Python
+__pycache__/
+*.pyc
+
+# Mac files
+.DS_Store
