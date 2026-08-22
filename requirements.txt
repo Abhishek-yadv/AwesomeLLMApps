@@ -1,0 +1,7 @@
+google-api-python-client
+python-dotenv
+youtube-transcript-api
+anthropic
+markdown
+ebooklib
+requests

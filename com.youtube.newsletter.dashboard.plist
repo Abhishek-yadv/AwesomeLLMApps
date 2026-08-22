@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.youtube.newsletter.dashboard</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Library/Frameworks/Python.framework/Versions/3.11/bin/python3</string>
+        <string>-m</string>
+        <string>streamlit</string>
+        <string>run</string>
+        <string>/Users/bytedance/youtube-newsletter/dashboard.py</string>
+        <string>--server.headless</string>
+        <string>true</string>
+    </array>
+
+    <!-- Start when you log in -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- Keep it running -->
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/bytedance/youtube-newsletter/logs/dashboard.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/bytedance/youtube-newsletter/logs/dashboard_error.log</string>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/bytedance/youtube-newsletter</string>
+</dict>
+</plist>
