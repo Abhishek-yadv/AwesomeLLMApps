@@ -21,6 +21,7 @@ Welcome to **Awesome LLM Apps** – a curated collection of fantastic LLM apps b
 - 🌍✈️ AITravelAgent
 - 🎥✨ AIYouTubeHighlightGenerator
 - 🕸️📚 WebGenius
+- 🎙️🧠 Transcribai
 
 ### 🔎 Project Details
 
@@ -46,6 +47,9 @@ Welcome to **Awesome LLM Apps** – a curated collection of fantastic LLM apps b
 
 7. #### 🕸️📚 WebGenius
    WebGenius is a full-stack documentation scraper with a React and TypeScript frontend plus a FastAPI backend. It uses Playwright to discover documentation pages, extract structured content, and export results as JSON or Markdown.
+
+8. #### 🎙️🧠 Transcribai
+   Transcribai turns long-form videos from YouTube, Instagram, LinkedIn, and TikTok into concise AI-powered insights. Its Next.js frontend and FastAPI backend use Groq to generate summaries and can export results as PDFs or images.
 
 ### 🚀 Getting Started
 1. **Clone the repository**:
