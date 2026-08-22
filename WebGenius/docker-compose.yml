@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  webgen:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: webgen-app
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+      - PYTHONPATH=/app
+      # Add your environment variables here
+      # - GROQ_API_KEY=${GROQ_API_KEY}
+    volumes:
+      # Persist scraped data
+      - ./data/scraped_data:/app/scraped_data
+      - ./data/output:/app/output
+      - ./data/debug:/app/debug
+      # Optional: Mount .env file for environment variables
+      # - ./.env:/app/.env:ro
+    networks:
+      - webgen-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Optional: Add a reverse proxy for production
+  # nginx:
+  #   image: nginx:alpine
+  #   container_name: webgen-nginx
+  #   restart: unless-stopped
+  #   ports:
+  #     - "80:80"
+  #     - "443:443"
+  #   volumes:
+  #     - ./nginx.conf:/etc/nginx/nginx.conf:ro
+  #     - ./ssl:/etc/nginx/ssl:ro
+  #   depends_on:
+  #     - webgen
+  #   networks:
+  #     - webgen-network
+
+networks:
+  webgen-network:
+    driver: bridge
+
+volumes:
+  webgen-data:
+    driver: local
