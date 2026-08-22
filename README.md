@@ -22,6 +22,7 @@ Welcome to **Awesome LLM Apps** – a curated collection of fantastic LLM apps b
 - 🎥✨ AIYouTubeHighlightGenerator
 - 🕸️📚 WebGenius
 - 🎙️🧠 Transcribai
+- 📺📚 TubeBox
 
 ### 🔎 Project Details
 
@@ -50,6 +51,9 @@ Welcome to **Awesome LLM Apps** – a curated collection of fantastic LLM apps b
 
 8. #### 🎙️🧠 Transcribai
    Transcribai turns long-form videos from YouTube, Instagram, LinkedIn, and TikTok into concise AI-powered insights. Its Next.js frontend and FastAPI backend use Groq to generate summaries and can export results as PDFs or images.
+
+9. #### 📺📚 TubeBox
+   TubeBox transforms videos from YouTube channels into polished EPUB ebooks. It extracts video transcripts, uses Claude to produce magazine-style articles, and can optionally deliver the finished ebook by email.
 
 ### 🚀 Getting Started
 1. **Clone the repository**:
