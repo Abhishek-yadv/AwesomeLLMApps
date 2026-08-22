@@ -21,6 +21,7 @@ Welcome to **Awesome LLM Apps** – a curated collection of fantastic LLM apps b
 - 🗞️🗞️ AIJournalistAgent
 - 🌍✈️ AITravelAgent
 - 🎥✨ AIYouTubeHighlightGenerator
+- 🕸️ WebGenius
 
 
 Certainly! I'll reorder the list as you've requested and serialize it. Here's the updated list with AI Chat Assistant above AI Finance Agent:
@@ -49,6 +50,9 @@ Certainly! I'll reorder the list as you've requested and serialize it. Here's th
 7. #### 🎥✨ AIYouTubeHighlightGenerator
    Transform YouTube content into captivating excerpts with AI magic! 🚀🤖
    AIYouTubeHighlightGenerator is a cutting-edge Streamlit web application that harnesses the power of AI to automatically craft engaging excerpts from YouTube video transcripts. It's the perfect tool for content creators, marketers, researchers, and anyone looking to quickly distill the essence of lengthy videos! 🎬💡🔍
+
+8. #### 🕸️ WebGenius
+   WebGenius is a full-stack documentation scraper with a React and TypeScript frontend plus a FastAPI backend. It uses Playwright to discover documentation pages, extract structured content, and export results as JSON or Markdown.
 
 ### 🚀 Getting Started
 1. **Clone the repository**:
