@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+youtube_transcript_api
+langchain_groq
+langchain_core
+pydantic
+xhtml2pdf
+PyMuPDF
+Pillow
+python-multipart
+python-dotenv
+yt-dlp
